@@ -1,4 +1,4 @@
-24651330663940527
+24656601671847809
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64617,6 +64617,13 @@ Connector
 2
 2
 KSZ_KiCad_Footprint_Library
+DIO_PESD5V0U1BB_115
+
+
+0
+2
+2
+KSZ_KiCad_Footprint_Library
 QFN40P700X700X90-57N
 
 
@@ -64644,6 +64651,20 @@ Integrated Circuit
 0
 9
 9
+KSZ_KiCad_Footprint_Library
+SOIC127P600X175-8N
+<b>8-Pin SOIC 150-mil (Package Code SN)</b><br>
+
+0
+8
+8
+KSZ_KiCad_Footprint_Library
+SOT229P700X180-4N
+
+
+0
+4
+4
 KSZ_KiCad_Footprint_Library
 WE-PD_7332
 
