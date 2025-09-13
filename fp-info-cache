@@ -1,4 +1,4 @@
-24656601671847809
+24668905587666256
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64617,12 +64617,26 @@ Connector
 2
 2
 KSZ_KiCad_Footprint_Library
+CHERRY_MX1A-11NN_SWITCH
+
+
+0
+2
+2
+KSZ_KiCad_Footprint_Library
 DIO_PESD5V0U1BB_115
 
 
 0
 2
 2
+KSZ_KiCad_Footprint_Library
+LED_SK6812-E
+
+
+0
+4
+4
 KSZ_KiCad_Footprint_Library
 QFN40P700X700X90-57N
 
@@ -64645,6 +64659,13 @@ Switch
 4
 4
 KSZ_KiCad_Footprint_Library
+SOD323
+
+
+0
+2
+2
+KSZ_KiCad_Footprint_Library
 SOIC127P600X100-9N
 HTSOP-J8-
 Integrated Circuit
@@ -64659,6 +64680,13 @@ SOIC127P600X175-8N
 8
 8
 KSZ_KiCad_Footprint_Library
+SOT65P210X110-5N
+
+
+0
+5
+5
+KSZ_KiCad_Footprint_Library
 SOT229P700X180-4N
 
 
@@ -64666,12 +64694,33 @@ SOT229P700X180-4N
 4
 4
 KSZ_KiCad_Footprint_Library
+SSD1306_128x32_Display_Module
+
+
+0
+4
+4
+KSZ_KiCad_Footprint_Library
+SW_PG151101S11
+
+
+0
+2
+2
+KSZ_KiCad_Footprint_Library
 WE-PD_7332
 
 
 0
 2
 2
+KSZ_KiCad_Footprint_Library
+XDCR_PEC11R-4215F-S0024
+
+
+0
+7
+7
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf

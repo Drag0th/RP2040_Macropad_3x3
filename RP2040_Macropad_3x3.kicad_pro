@@ -578,6 +578,18 @@
     [
       "fc1cc452-fb2d-489e-813e-eec33b7a6fbb",
       "Root"
+    ],
+    [
+      "bfb91206-72fd-42b8-befc-44b71316f822",
+      "RP2040_External_Peripherals"
+    ],
+    [
+      "30351b95-a44e-4c18-895e-5748e9c4a5bc",
+      "Power_Rail"
+    ],
+    [
+      "120a8509-d4b2-4cb8-99dd-f37bcf3f02e8",
+      "Switch_Matrix"
     ]
   ],
   "text_variables": {}
