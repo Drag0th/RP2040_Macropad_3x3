@@ -1,4 +1,4 @@
-24668929672851614
+24670690410257377
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64621,8 +64621,8 @@ CHERRY_MX1A-11NN_SWITCH
 
 
 0
-2
-2
+0
+0
 KSZ_KiCad_Footprint_Library
 DIO_PESD5V0U1BB_115
 
@@ -64681,6 +64681,13 @@ SOIC127P600X175-8N
 8
 KSZ_KiCad_Footprint_Library
 SOT65P210X110-5N
+
+
+0
+5
+5
+KSZ_KiCad_Footprint_Library
+SOT95P280X145-5N
 
 
 0

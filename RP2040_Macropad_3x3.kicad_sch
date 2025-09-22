@@ -1034,24 +1034,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 22.86 33.02 180)
-					(length 5.08)
-					(name "VREG_VOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 22.86 10.16 180)
 					(length 5.08)
@@ -1351,6 +1333,26 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RP2040_1_0"
+				(pin passive line
+					(at 22.86 33.02 180)
+					(length 5.08)
+					(name "VREG_VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "45"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1833,6 +1835,10 @@
 		(uuid "c8439b0c-3558-4685-89cc-be60fb0a8b3c")
 	)
 	(no_connect
+		(at 78.74 102.87)
+		(uuid "0540e423-47a3-4c35-a346-d681fe4e285f")
+	)
+	(no_connect
 		(at 78.74 95.25)
 		(uuid "207991f4-e147-4c33-8c7e-297bd4afa8fb")
 	)
@@ -1853,8 +1859,8 @@
 		(uuid "6226ce34-074e-45e5-95f3-60f336610250")
 	)
 	(no_connect
-		(at 78.74 113.03)
-		(uuid "71fbe6df-3a44-49d6-9db7-2e7431796679")
+		(at 33.02 90.17)
+		(uuid "8b5199f4-c408-4122-a429-6ed8449b7cef")
 	)
 	(no_connect
 		(at 33.02 102.87)
@@ -1873,10 +1879,6 @@
 		(uuid "bdd0d337-e22f-4258-8657-a5650d9ca24f")
 	)
 	(no_connect
-		(at 78.74 110.49)
-		(uuid "c015bb04-1dab-417f-879c-337b94c6ffcb")
-	)
-	(no_connect
 		(at 78.74 105.41)
 		(uuid "cbcf00ee-0dcb-4eec-ba10-3bb78b3f055a")
 	)
@@ -1886,7 +1888,7 @@
 	)
 	(no_connect
 		(at 33.02 97.79)
-		(uuid "e791f10b-1e24-45d8-a047-39f65130fbc1")
+		(uuid "eb30de2b-08a0-48ce-9242-5173410c55e1")
 	)
 	(wire
 		(pts
@@ -1937,16 +1939,6 @@
 			(type default)
 		)
 		(uuid "0d4ebb2f-5853-4669-880b-ae4d5d4e6270")
-	)
-	(wire
-		(pts
-			(xy 24.13 92.71) (xy 33.02 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d653b89-5c8e-4655-bb73-96d7e21df77d")
 	)
 	(wire
 		(pts
@@ -2420,6 +2412,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 110.49) (xy 78.74 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a44e47-928d-4461-9e33-29c319e40d6c")
+	)
+	(wire
+		(pts
 			(xy 78.74 125.73) (xy 81.28 125.73)
 		)
 		(stroke
@@ -2437,16 +2439,6 @@
 			(type default)
 		)
 		(uuid "a44d40a4-d6c2-4cb5-82f9-4bc1beebd163")
-	)
-	(wire
-		(pts
-			(xy 24.13 90.17) (xy 33.02 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a86a2518-79db-4ed0-a4c6-942af7cc18ce")
 	)
 	(wire
 		(pts
@@ -2600,7 +2592,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 102.87) (xy 91.44 102.87)
+			(xy 33.02 92.71) (xy 20.32 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2627,6 +2619,16 @@
 			(type default)
 		)
 		(uuid "df3bc1ef-db81-4f51-93b6-d0b634f53f1a")
+	)
+	(wire
+		(pts
+			(xy 87.63 113.03) (xy 78.74 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d5fc0d-1828-4a8f-839b-90273de0a8d1")
 	)
 	(wire
 		(pts
@@ -2932,16 +2934,6 @@
 		)
 		(uuid "1e4feca2-6ea4-4cf3-83b2-9796bd0edb01")
 	)
-	(label "I2C0_SDA"
-		(at 24.13 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33bcc16c-93af-4c8e-8ee2-edc42225e873")
-	)
 	(label "ENC0_A"
 		(at 87.63 80.01 180)
 		(effects
@@ -2962,7 +2954,7 @@
 		)
 		(uuid "35b62b3f-c1f6-4a9e-9c8a-fdbf4d04a0c7")
 	)
-	(label "I2C0_SCL"
+	(label "I2C1_SCL"
 		(at 144.78 43.18 180)
 		(effects
 			(font
@@ -2992,6 +2984,16 @@
 		)
 		(uuid "4055216a-5905-466a-be23-aff5a707c069")
 	)
+	(label "I2C1_SCL"
+		(at 87.63 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "414c9ac5-6df7-4972-9def-d86dd6ce0bba")
+	)
 	(label "IOVDD"
 		(at 87.63 41.91 180)
 		(effects
@@ -3003,7 +3005,7 @@
 		(uuid "41eb1ab1-7550-4c82-81a6-0eeabdc6afe6")
 	)
 	(label "ROW_1"
-		(at 24.13 82.55 0)
+		(at 24.13 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3052,6 +3054,16 @@
 		)
 		(uuid "5dd6adfe-2abe-4787-8ef6-ac6b72827d1d")
 	)
+	(label "I2C1_SDA"
+		(at 87.63 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ed088ef-6b81-4b24-99c4-43b42a5d0340")
+	)
 	(label "ENC2_A"
 		(at 87.63 90.17 180)
 		(effects
@@ -3072,7 +3084,7 @@
 		)
 		(uuid "63ef5d0f-b4a5-4207-8d68-b74b44571440")
 	)
-	(label "I2C0_SDA"
+	(label "I2C1_SDA"
 		(at 167.64 69.85 0)
 		(effects
 			(font
@@ -3132,7 +3144,7 @@
 		)
 		(uuid "89f2ed17-0061-42dc-a6af-6870c135925f")
 	)
-	(label "VREG_OUT"
+	(label "VREG_VOUT"
 		(at 87.63 49.53 180)
 		(effects
 			(font
@@ -3143,7 +3155,7 @@
 		(uuid "8dcbc9d4-1408-49f0-b7f4-d1b84526ef5c")
 	)
 	(label "ROW_3"
-		(at 24.13 87.63 0)
+		(at 24.13 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3183,12 +3195,12 @@
 		(uuid "933912da-92ae-4f5e-bf3c-426757192e84")
 	)
 	(label "LED_BUFFER"
-		(at 91.44 102.87 180)
+		(at 20.32 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "95d5c4b1-df09-481e-b737-fb251ddaba6d")
 	)
@@ -3273,7 +3285,7 @@
 		(uuid "b5724379-c266-4e28-81f5-1ebf4f8e2eeb")
 	)
 	(label "ROW_2"
-		(at 24.13 85.09 0)
+		(at 24.13 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3312,7 +3324,7 @@
 		)
 		(uuid "ba88f92a-183c-419c-84ea-7926b79665dc")
 	)
-	(label "VREG_OUT"
+	(label "VREG_VOUT"
 		(at 167.64 36.83 0)
 		(effects
 			(font
@@ -3392,7 +3404,7 @@
 		)
 		(uuid "cb3ecccc-cb53-49b1-a6d4-efb4a208a248")
 	)
-	(label "I2C0_SCL"
+	(label "I2C1_SCL"
 		(at 167.64 72.39 0)
 		(effects
 			(font
@@ -3403,7 +3415,7 @@
 		(uuid "cb5376d6-92cc-462c-8df7-36b7875692c1")
 	)
 	(label "ROW_0"
-		(at 24.13 80.01 0)
+		(at 24.13 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3512,16 +3524,6 @@
 		)
 		(uuid "f749cf01-6d69-437e-b010-5646ebcad85b")
 	)
-	(label "I2C0_SCL"
-		(at 24.13 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f99db729-a224-43a9-a4d5-60883df826a7")
-	)
 	(label "ENC1_B"
 		(at 87.63 87.63 180)
 		(effects
@@ -3532,7 +3534,7 @@
 		)
 		(uuid "fb2d3617-879d-4850-945a-ca2f1ce41be3")
 	)
-	(label "I2C0_SDA"
+	(label "I2C1_SDA"
 		(at 144.78 39.37 180)
 		(effects
 			(font
@@ -5209,17 +5211,7 @@
 			)
 			(uuid "fc59d58a-0645-46ba-b6a4-5973dac24a00")
 		)
-		(pin "I2C0_SDA" input
-			(at 179.07 69.85 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "095406b1-fc49-45da-a544-274567a23e88")
-		)
-		(pin "I2C0_SCL" input
+		(pin "I2C1_SCL" input
 			(at 179.07 72.39 180)
 			(effects
 				(font
@@ -5227,7 +5219,17 @@
 				)
 				(justify left)
 			)
-			(uuid "9652cc8b-95f5-4035-914c-8c00d88114f9")
+			(uuid "7c86ac66-8b5c-4b86-957a-81b7589ade3e")
+		)
+		(pin "I2C1_SDA" input
+			(at 179.07 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "13836b7c-405d-4aad-b183-bef3ae2e77e4")
 		)
 		(instances
 			(project "RP2040_Macropad_3x3"

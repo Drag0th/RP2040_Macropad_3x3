@@ -1354,7 +1354,7 @@
 				)
 			)
 		)
-		(symbol "KSZ_KiCad_Symbol_Library:SN74LVC1G17DCKR"
+		(symbol "KSZ_KiCad_Symbol_Library:SN74LV1T34DBVR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1362,7 +1362,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.08 4.81 0)
+				(at -12.7 8.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1370,8 +1370,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "SN74LVC1G17DCKR"
-				(at -5.588 -6.096 0)
+			(property "Value" "SN74LV1T34DBVR"
+				(at -12.954 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1379,8 +1379,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "KSZ_KiCad_Footprint_Library:SOT65P210X110-5N"
-				(at 7.62 -3.81 0)
+			(property "Footprint" "KSZ_KiCad_Footprint_Library:SOT95P280X145-5N"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1390,7 +1390,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 7.62 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1399,7 +1399,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 7.62 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1408,7 +1408,7 @@
 				)
 			)
 			(property "MF" "Texas Instruments"
-				(at 7.62 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1417,8 +1417,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            Single 1.65-V to 5.5-V buffer with Schmitt-Trigger inputs\n                        \n"
-				(at 7.62 -3.81 0)
+			(property "Description_1" "\n                        \n                            Single Power Supply BUFFER Logic Level Shifter (no enable)\n                        \n"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1427,8 +1427,8 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "SC70-5 Texas Instruments"
-				(at 7.62 -3.81 0)
+			(property "Package" "SOT-23-5 Texas Instruments"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1438,7 +1438,7 @@
 				)
 			)
 			(property "Price" "None"
-				(at 7.62 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1447,8 +1447,8 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SN74LVC1G17DCKR/Texas+Instruments/view-part/?ref=snap"
-				(at 7.62 -3.81 0)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1457,8 +1457,8 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "SN74LVC1G17DCKR"
-				(at 7.62 -3.81 0)
+			(property "MP" "SN74LV1T34DBVR"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1468,7 +1468,7 @@
 				)
 			)
 			(property "Availability" "In Stock"
-				(at 7.62 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1477,8 +1477,8 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SN74LVC1G17DCKR/Texas+Instruments/view-part/?ref=eda"
-				(at 7.62 -3.81 0)
+			(property "Check_prices" "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1487,10 +1487,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SN74LVC1G17DCKR_0_0"
+			(symbol "SN74LV1T34DBVR_0_0"
 				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
+					(start -12.7 7.62)
+					(end 1.27 -2.54)
 					(stroke
 						(width 0.41)
 						(type default)
@@ -1500,7 +1500,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 2.54 0)
+					(at -17.78 5.08 0)
 					(length 5.08)
 					(name "A"
 						(effects
@@ -1518,7 +1518,7 @@
 					)
 				)
 				(pin power_in line
-					(at 10.16 -2.54 180)
+					(at 6.35 0 180)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1536,7 +1536,7 @@
 					)
 				)
 				(pin output line
-					(at 10.16 2.54 180)
+					(at 6.35 5.08 180)
 					(length 5.08)
 					(name "Y"
 						(effects
@@ -1554,7 +1554,7 @@
 					)
 				)
 				(pin power_in line
-					(at -10.16 -2.54 0)
+					(at -17.78 0 0)
 					(length 5.08)
 					(name "VCC"
 						(effects
@@ -1572,9 +1572,9 @@
 					)
 				)
 			)
-			(symbol "SN74LVC1G17DCKR_1_0"
+			(symbol "SN74LV1T34DBVR_1_0"
 				(pin input line
-					(at 10.16 0 180)
+					(at 6.35 2.54 180)
 					(length 5.08)
 					(name "NC"
 						(effects
@@ -2263,7 +2263,7 @@
 		(uuid "2ff5828e-e88d-425a-9b5b-01b101935961")
 	)
 	(junction
-		(at 316.23 121.92)
+		(at 317.5 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41c62821-f4fc-4f18-a196-e2ed4453e5cb")
@@ -2287,7 +2287,7 @@
 		(uuid "4b479f92-6177-49e8-b429-0aa772fdab9a")
 	)
 	(junction
-		(at 292.1 121.92)
+		(at 289.56 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bfce85b-1abd-4fc4-8b6d-ce416733ea33")
@@ -2822,7 +2822,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 119.38) (xy 316.23 121.92)
+			(xy 317.5 119.38) (xy 317.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3062,7 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 129.54) (xy 292.1 130.81)
+			(xy 289.56 129.54) (xy 289.56 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3322,7 +3322,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 83.82) (xy 170.18 83.82)
+			(xy 161.29 83.82) (xy 170.18 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3422,7 +3422,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 121.92) (xy 292.1 121.92)
+			(xy 287.02 121.92) (xy 289.56 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3492,7 +3492,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 127) (xy 170.18 127)
+			(xy 161.29 127) (xy 170.18 127)
 		)
 		(stroke
 			(width 0)
@@ -3512,7 +3512,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 127) (xy 80.01 127)
+			(xy 72.39 127) (xy 81.28 127)
 		)
 		(stroke
 			(width 0)
@@ -3522,7 +3522,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 116.84) (xy 326.39 116.84)
+			(xy 316.23 116.84) (xy 327.66 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3582,7 +3582,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 127) (xy 115.57 127)
+			(xy 107.95 127) (xy 116.84 127)
 		)
 		(stroke
 			(width 0)
@@ -4002,7 +4002,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 38.1) (xy 170.18 38.1)
+			(xy 162.56 38.1) (xy 170.18 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4012,7 +4012,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 121.92) (xy 316.23 121.92)
+			(xy 316.23 121.92) (xy 317.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4032,7 +4032,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 121.92) (xy 316.23 123.19)
+			(xy 317.5 121.92) (xy 317.5 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4232,7 +4232,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 121.92) (xy 294.64 121.92)
+			(xy 289.56 121.92) (xy 292.1 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4342,7 +4342,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 116.84) (xy 294.64 116.84)
+			(xy 289.56 116.84) (xy 292.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4352,7 +4352,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 119.38) (xy 314.96 119.38)
+			(xy 317.5 119.38) (xy 316.23 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4432,7 +4432,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 127) (xy 44.45 127)
+			(xy 36.83 127) (xy 45.72 127)
 		)
 		(stroke
 			(width 0)
@@ -4512,7 +4512,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 116.84) (xy 284.48 116.84)
+			(xy 279.4 116.84) (xy 281.94 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4646,8 +4646,8 @@
 		)
 		(uuid "0821b2da-903a-40ab-a977-901f4ca3f512")
 	)
-	(label "COL_2"
-		(at 115.57 127 180)
+	(label "COL_2_1"
+		(at 116.84 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4656,8 +4656,8 @@
 		)
 		(uuid "0d65226a-32f8-480b-8643-7e73a2664ba5")
 	)
-	(label "COL_1"
-		(at 80.01 127 180)
+	(label "COL_1_1"
+		(at 81.28 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4686,8 +4686,8 @@
 		)
 		(uuid "20143949-aa07-4ded-995b-683290002753")
 	)
-	(label "COL_2"
-		(at 163.83 127 0)
+	(label "COL_2_1"
+		(at 161.29 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4696,8 +4696,8 @@
 		)
 		(uuid "220dba0d-6876-4cb5-a379-1dc72a079167")
 	)
-	(label "COL_0"
-		(at 163.83 38.1 0)
+	(label "COL_0_1"
+		(at 162.56 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4716,8 +4716,8 @@
 		)
 		(uuid "3ff9e1da-56bd-4a41-9870-bff0c685b160")
 	)
-	(label "COL_1"
-		(at 163.83 83.82 0)
+	(label "COL_1_1"
+		(at 161.29 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4766,8 +4766,8 @@
 		)
 		(uuid "5607badb-24a2-4966-aebf-67dfe2fcdfdb")
 	)
-	(label "COL_0"
-		(at 44.45 127 180)
+	(label "COL_0_1"
+		(at 45.72 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4797,7 +4797,7 @@
 		(uuid "b24e3b11-2e2a-4de2-b745-70fa6e209c54")
 	)
 	(label "LED_ROW_0"
-		(at 326.39 116.84 180)
+		(at 327.66 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4851,7 +4851,7 @@
 	)
 	(hierarchical_label "LED_BUFFER"
 		(shape input)
-		(at 281.94 116.84 180)
+		(at 279.4 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5229,164 +5229,6 @@
 			(project "RP2040_Macropad_3x3"
 				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/120a8509-d4b2-4cb8-99dd-f37bcf3f02e8"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KSZ_KiCad_Symbol_Library:SN74LVC1G17DCKR")
-		(at 304.8 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07c51855-beef-41f5-ae66-14fff406dea3")
-		(property "Reference" "U7"
-			(at 304.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC1G17DCKR"
-			(at 304.8 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KSZ_KiCad_Footprint_Library:SOT65P210X110-5N"
-			(at 312.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 312.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 312.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Single 1.65-V to 5.5-V buffer with Schmitt-Trigger inputs\n                        \n"
-			(at 312.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SC70-5 Texas Instruments"
-			(at 312.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 312.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SN74LVC1G17DCKR/Texas+Instruments/view-part/?ref=snap"
-			(at 312.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SN74LVC1G17DCKR"
-			(at 312.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 312.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SN74LVC1G17DCKR/Texas+Instruments/view-part/?ref=eda"
-			(at 312.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "bbc5432c-7cec-45eb-a9e0-1a54ecf3b755")
-		)
-		(pin "4"
-			(uuid "f130eefb-41a5-4215-86af-7f165fe60ac9")
-		)
-		(pin "2"
-			(uuid "22ae15b8-8698-4abd-a298-78f087d15a89")
-		)
-		(pin "3"
-			(uuid "1ca3c257-916f-485c-9c68-3e53f5153196")
-		)
-		(pin "1"
-			(uuid "4de8f503-99e5-4140-aeeb-e55450e3f525")
-		)
-		(instances
-			(project ""
-				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/120a8509-d4b2-4cb8-99dd-f37bcf3f02e8"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -7014,7 +6856,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 292.1 130.81 0)
+		(at 289.56 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7023,7 +6865,7 @@
 		(fields_autoplaced yes)
 		(uuid "2484612b-0894-44d9-b097-63ef95034e92")
 		(property "Reference" "#PWR085"
-			(at 292.1 137.16 0)
+			(at 289.56 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7032,7 +6874,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 292.1 135.89 0)
+			(at 289.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +6882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 292.1 130.81 0)
+			(at 289.56 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +6891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 130.81 0)
+			(at 289.56 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +6900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 292.1 130.81 0)
+			(at 289.56 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7212,7 +7054,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 289.56 121.92 90)
+		(at 287.02 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7221,7 +7063,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a3c6bd8-6a24-4a50-a12f-2948e4c67ae1")
 		(property "Reference" "#PWR084"
-			(at 293.37 121.92 0)
+			(at 290.83 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,7 +7072,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 285.75 121.9199 90)
+			(at 283.21 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +7081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 121.92 0)
+			(at 287.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,7 +7090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 121.92 0)
+			(at 287.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +7099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 289.56 121.92 0)
+			(at 287.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8220,7 +8062,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 288.29 116.84 270)
+		(at 285.75 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8229,7 +8071,7 @@
 		(fields_autoplaced yes)
 		(uuid "404e406e-8572-4ec7-a58e-cb2d458a3485")
 		(property "Reference" "R14"
-			(at 288.29 110.49 90)
+			(at 285.75 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,7 +8079,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 288.29 113.03 90)
+			(at 285.75 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,7 +8087,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 288.29 115.062 90)
+			(at 285.75 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8254,7 +8096,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 288.29 116.84 0)
+			(at 285.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,7 +8105,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 288.29 116.84 0)
+			(at 285.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9434,7 +9276,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 316.23 123.19 0)
+		(at 317.5 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9443,7 +9285,7 @@
 		(fields_autoplaced yes)
 		(uuid "526247b7-e1b0-4d87-ae1b-12fdf9d3a3ae")
 		(property "Reference" "#PWR086"
-			(at 316.23 129.54 0)
+			(at 317.5 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9452,7 +9294,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 316.23 128.27 0)
+			(at 317.5 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9460,7 +9302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 316.23 123.19 0)
+			(at 317.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9469,7 +9311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 123.19 0)
+			(at 317.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,7 +9320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 316.23 123.19 0)
+			(at 317.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,7 +9476,7 @@
 	)
 	(symbol
 		(lib_id "KSZ_KiCad_Symbol_Library:SK6812-E")
-		(at 374.65 38.1 0)
+		(at 298.45 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9643,7 +9485,7 @@
 		(fields_autoplaced yes)
 		(uuid "58d731eb-5b06-4534-b0ff-8c2a3f12a460")
 		(property "Reference" "D23"
-			(at 370.84 25.4 0)
+			(at 294.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9651,7 +9493,7 @@
 			)
 		)
 		(property "Value" "SK6812-E"
-			(at 370.84 27.94 0)
+			(at 294.64 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9659,7 +9501,7 @@
 			)
 		)
 		(property "Footprint" "KSZ_KiCad_Footprint_Library:LED_SK6812-E"
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9669,7 +9511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9678,7 +9520,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9687,7 +9529,7 @@
 			)
 		)
 		(property "MF" "DONGGUANG OPSCO OPTOELECTRONICS CO., LTD"
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9697,7 +9539,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84mm"
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9707,7 +9549,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9717,7 +9559,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9727,7 +9569,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda"
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9737,7 +9579,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9747,7 +9589,7 @@
 			)
 		)
 		(property "PARTREV" "2"
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9757,7 +9599,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap"
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9767,7 +9609,7 @@
 			)
 		)
 		(property "MP" "SK6812-E"
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9777,7 +9619,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.\n                        \n"
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9787,7 +9629,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9797,7 +9639,7 @@
 			)
 		)
 		(property "MANUFACTURER" "DONGGUANG OPSCO"
-			(at 374.65 38.1 0)
+			(at 298.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9829,7 +9671,7 @@
 	)
 	(symbol
 		(lib_id "KSZ_KiCad_Symbol_Library:SK6812-E")
-		(at 374.65 78.74 0)
+		(at 298.45 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9838,7 +9680,7 @@
 		(fields_autoplaced yes)
 		(uuid "5df77037-eec4-4ff7-95ee-1b63b61c14c6")
 		(property "Reference" "D25"
-			(at 370.84 66.04 0)
+			(at 294.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9846,7 +9688,7 @@
 			)
 		)
 		(property "Value" "SK6812-E"
-			(at 370.84 68.58 0)
+			(at 294.64 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,7 +9696,7 @@
 			)
 		)
 		(property "Footprint" "KSZ_KiCad_Footprint_Library:LED_SK6812-E"
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9864,7 +9706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9873,7 +9715,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9882,7 +9724,7 @@
 			)
 		)
 		(property "MF" "DONGGUANG OPSCO OPTOELECTRONICS CO., LTD"
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9892,7 +9734,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84mm"
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9902,7 +9744,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,7 +9754,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,7 +9764,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda"
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9932,7 +9774,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,7 +9784,7 @@
 			)
 		)
 		(property "PARTREV" "2"
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9952,7 +9794,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap"
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,7 +9804,7 @@
 			)
 		)
 		(property "MP" "SK6812-E"
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9972,7 +9814,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.\n                        \n"
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9982,7 +9824,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9992,7 +9834,7 @@
 			)
 		)
 		(property "MANUFACTURER" "DONGGUANG OPSCO"
-			(at 374.65 78.74 0)
+			(at 298.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11524,7 +11366,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 292.1 125.73 180)
+		(at 289.56 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11533,7 +11375,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c2c39ad-2d6b-4645-a4cf-2d1af7ccc5ce")
 		(property "Reference" "C23"
-			(at 295.91 124.4599 0)
+			(at 293.37 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11542,7 +11384,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 295.91 126.9999 0)
+			(at 293.37 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11551,7 +11393,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 291.1348 121.92 0)
+			(at 288.5948 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11560,7 +11402,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 292.1 125.73 0)
+			(at 289.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11569,7 +11411,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 292.1 125.73 0)
+			(at 289.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12674,7 +12516,7 @@
 	)
 	(symbol
 		(lib_id "KSZ_KiCad_Symbol_Library:SK6812-E")
-		(at 298.45 38.1 0)
+		(at 374.65 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12683,7 +12525,7 @@
 		(fields_autoplaced yes)
 		(uuid "a264438a-c95a-49a6-bd96-b59ca656f681")
 		(property "Reference" "D13"
-			(at 294.64 25.4 0)
+			(at 370.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12691,7 +12533,7 @@
 			)
 		)
 		(property "Value" "SK6812-E"
-			(at 294.64 27.94 0)
+			(at 370.84 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12699,7 +12541,7 @@
 			)
 		)
 		(property "Footprint" "KSZ_KiCad_Footprint_Library:LED_SK6812-E"
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12709,7 +12551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12718,7 +12560,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12727,7 +12569,7 @@
 			)
 		)
 		(property "MF" "DONGGUANG OPSCO OPTOELECTRONICS CO., LTD"
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12737,7 +12579,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84mm"
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12747,7 +12589,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12757,7 +12599,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12767,7 +12609,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda"
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12777,7 +12619,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12787,7 +12629,7 @@
 			)
 		)
 		(property "PARTREV" "2"
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12797,7 +12639,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap"
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12807,7 +12649,7 @@
 			)
 		)
 		(property "MP" "SK6812-E"
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12817,7 +12659,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.\n                        \n"
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12827,7 +12669,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12837,7 +12679,7 @@
 			)
 		)
 		(property "MANUFACTURER" "DONGGUANG OPSCO"
-			(at 298.45 38.1 0)
+			(at 374.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12868,6 +12710,164 @@
 		)
 	)
 	(symbol
+		(lib_id "KSZ_KiCad_Symbol_Library:SN74LV1T34DBVR")
+		(at 309.88 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a27fbf2a-e4b7-4069-8641-8b467b697b23")
+		(property "Reference" "U7"
+			(at 304.165 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LV1T34DBVR"
+			(at 304.165 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSZ_KiCad_Footprint_Library:SOT95P280X145-5N"
+			(at 309.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 309.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Single Power Supply BUFFER Logic Level Shifter (no enable)\n                        \n"
+			(at 309.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-5 Texas Instruments"
+			(at 309.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 309.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=snap"
+			(at 309.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SN74LV1T34DBVR"
+			(at 309.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 309.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SN74LV1T34DBVR/Texas+Instruments/view-part/?ref=eda"
+			(at 309.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc48456c-0add-43b5-9b23-cd1d0365a562")
+		)
+		(pin "2"
+			(uuid "e72478da-7723-4c32-88b4-6cba781c777c")
+		)
+		(pin "3"
+			(uuid "c62ec0ad-aaab-402b-8fb5-cf88a528d86c")
+		)
+		(pin "5"
+			(uuid "63bd2a95-7c9a-42d1-9923-1ccc75cfef22")
+		)
+		(pin "4"
+			(uuid "2676372f-4a8f-4e8e-827e-b2499ce75734")
+		)
+		(instances
+			(project ""
+				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/120a8509-d4b2-4cb8-99dd-f37bcf3f02e8"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KSZ_KiCad_Symbol_Library:SK6812-E")
 		(at 374.65 58.42 0)
 		(unit 1)
@@ -12875,7 +12875,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a2c140f8-1d2c-449d-88ab-191f7dc9a886")
 		(property "Reference" "D24"
 			(at 370.84 45.72 0)
@@ -13416,7 +13415,7 @@
 	)
 	(symbol
 		(lib_id "KSZ_KiCad_Symbol_Library:SK6812-E")
-		(at 298.45 78.74 0)
+		(at 374.65 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13425,7 +13424,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa0d83d6-ec60-4f07-ac2a-39f18e082f0d")
 		(property "Reference" "D15"
-			(at 294.64 66.04 0)
+			(at 370.84 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13433,7 +13432,7 @@
 			)
 		)
 		(property "Value" "SK6812-E"
-			(at 294.64 68.58 0)
+			(at 370.84 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13441,7 +13440,7 @@
 			)
 		)
 		(property "Footprint" "KSZ_KiCad_Footprint_Library:LED_SK6812-E"
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13451,7 +13450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13460,7 +13459,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13469,7 +13468,7 @@
 			)
 		)
 		(property "MF" "DONGGUANG OPSCO OPTOELECTRONICS CO., LTD"
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13479,7 +13478,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84mm"
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13489,7 +13488,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13499,7 +13498,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13509,7 +13508,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda"
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13519,7 +13518,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13529,7 +13528,7 @@
 			)
 		)
 		(property "PARTREV" "2"
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13539,7 +13538,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap"
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13549,7 +13548,7 @@
 			)
 		)
 		(property "MP" "SK6812-E"
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13559,7 +13558,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.\n                        \n"
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13569,7 +13568,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13579,7 +13578,7 @@
 			)
 		)
 		(property "MANUFACTURER" "DONGGUANG OPSCO"
-			(at 298.45 78.74 0)
+			(at 374.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14424,7 +14423,7 @@
 	)
 	(symbol
 		(lib_id "KSZ_KiCad_Symbol_Library:SK6812-E")
-		(at 336.55 38.1 0)
+		(at 336.55 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14433,7 +14432,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4fd9fe9-ece5-4cff-9727-2be4a407d0a4")
 		(property "Reference" "D20"
-			(at 332.74 25.4 0)
+			(at 332.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14441,7 +14440,7 @@
 			)
 		)
 		(property "Value" "SK6812-E"
-			(at 332.74 27.94 0)
+			(at 332.74 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14449,7 +14448,7 @@
 			)
 		)
 		(property "Footprint" "KSZ_KiCad_Footprint_Library:LED_SK6812-E"
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14459,7 +14458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14468,7 +14467,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14477,7 +14476,7 @@
 			)
 		)
 		(property "MF" "DONGGUANG OPSCO OPTOELECTRONICS CO., LTD"
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14487,7 +14486,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84mm"
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14497,7 +14496,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14507,7 +14506,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14517,7 +14516,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda"
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14527,7 +14526,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14537,7 +14536,7 @@
 			)
 		)
 		(property "PARTREV" "2"
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14547,7 +14546,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap"
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14557,7 +14556,7 @@
 			)
 		)
 		(property "MP" "SK6812-E"
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14567,7 +14566,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.\n                        \n"
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14577,7 +14576,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14587,7 +14586,7 @@
 			)
 		)
 		(property "MANUFACTURER" "DONGGUANG OPSCO"
-			(at 336.55 38.1 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15886,7 +15885,7 @@
 	)
 	(symbol
 		(lib_id "KSZ_KiCad_Symbol_Library:SK6812-E")
-		(at 336.55 78.74 0)
+		(at 336.55 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15895,7 +15894,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4cb28fe-6f38-4b02-94a6-a5e557d59018")
 		(property "Reference" "D22"
-			(at 332.74 66.04 0)
+			(at 332.74 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15903,7 +15902,7 @@
 			)
 		)
 		(property "Value" "SK6812-E"
-			(at 332.74 68.58 0)
+			(at 332.74 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15911,7 +15910,7 @@
 			)
 		)
 		(property "Footprint" "KSZ_KiCad_Footprint_Library:LED_SK6812-E"
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15921,7 +15920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15930,7 +15929,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15939,7 +15938,7 @@
 			)
 		)
 		(property "MF" "DONGGUANG OPSCO OPTOELECTRONICS CO., LTD"
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15949,7 +15948,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.84mm"
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15959,7 +15958,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15969,7 +15968,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15979,7 +15978,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda"
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15989,7 +15988,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15999,7 +15998,7 @@
 			)
 		)
 		(property "PARTREV" "2"
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16009,7 +16008,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap"
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16019,7 +16018,7 @@
 			)
 		)
 		(property "MP" "SK6812-E"
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16029,7 +16028,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.\n                        \n"
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16039,7 +16038,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16049,7 +16048,7 @@
 			)
 		)
 		(property "MANUFACTURER" "DONGGUANG OPSCO"
-			(at 336.55 78.74 0)
+			(at 336.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)

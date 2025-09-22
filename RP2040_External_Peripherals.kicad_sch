@@ -1159,24 +1159,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 55.88 -7.62 180)
 					(length 5.08)
 					(name "DI_(IO0)"
@@ -1230,7 +1212,27 @@
 						)
 					)
 				)
-				(pin bidirectional line
+			)
+			(symbol "W25Q16JVSNIQ_1_0"
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 55.88 0 180)
 					(length 5.08)
 					(name "VCC"
@@ -1244,126 +1246,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1586,6 +1468,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 45.72 132.08)
@@ -1720,6 +1698,12 @@
 		(uuid "daf9c4e0-2bd5-42dd-bc68-3a6213849b6f")
 	)
 	(junction
+		(at 55.88 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0775202-b552-4c6a-862f-dad65bbe4c81")
+	)
+	(junction
 		(at 101.6 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1803,7 +1787,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 30.48) (xy 115.57 30.48)
+			(xy 110.49 30.48) (xy 115.57 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1823,6 +1807,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 45.72) (xy 167.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d774cf3-0446-4e99-82b3-61ae7a9f400a")
+	)
+	(wire
+		(pts
 			(xy 161.29 104.14) (xy 161.29 99.06)
 		)
 		(stroke
@@ -1830,16 +1824,6 @@
 			(type default)
 		)
 		(uuid "31ef4d6e-42d2-4e77-8a34-b2642bb40759")
-	)
-	(wire
-		(pts
-			(xy 29.21 95.25) (xy 26.67 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32e2eb87-905f-4446-abd2-91c4997024b2")
 	)
 	(wire
 		(pts
@@ -1880,6 +1864,16 @@
 			(type default)
 		)
 		(uuid "4942a914-b740-40e1-aff9-619d470c1271")
+	)
+	(wire
+		(pts
+			(xy 26.67 97.79) (xy 26.67 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ace066-179a-493c-bbe0-402aea3f38f4")
 	)
 	(wire
 		(pts
@@ -2363,6 +2357,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 95.25) (xy 29.21 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2083224-699d-418a-be37-47ff8d12ac28")
+	)
+	(wire
+		(pts
 			(xy 29.21 27.94) (xy 29.21 30.48)
 		)
 		(stroke
@@ -2403,6 +2407,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 48.26) (xy 167.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b2ef1b-ac90-428a-b380-d45f2256fa9d")
+	)
+	(wire
+		(pts
 			(xy 114.3 95.25) (xy 114.3 96.52)
 		)
 		(stroke
@@ -2430,16 +2444,6 @@
 			(type default)
 		)
 		(uuid "ef4d34b7-5845-4217-a83e-be60f494f8e2")
-	)
-	(wire
-		(pts
-			(xy 26.67 95.25) (xy 26.67 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f05966d3-558c-4760-96b6-19fba1463c2f")
 	)
 	(wire
 		(pts
@@ -2742,17 +2746,6 @@
 		)
 		(uuid "25aed69a-6801-4ed4-93dd-81ddbe1696c0")
 	)
-	(hierarchical_label "VREG_VIN"
-		(shape input)
-		(at 111.76 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3e59e847-0f69-4efb-95f6-d4a0809939c3")
-	)
 	(hierarchical_label "QSPI_SCLK"
 		(shape input)
 		(at 86.36 92.71 0)
@@ -2786,7 +2779,7 @@
 		)
 		(uuid "6a020dfc-cfec-4615-86af-e5f80ab3582b")
 	)
-	(hierarchical_label "I2C0_SCL"
+	(hierarchical_label "I2C1_SCL"
 		(shape input)
 		(at 252.73 71.12 180)
 		(effects
@@ -2797,16 +2790,16 @@
 		)
 		(uuid "706878f4-03ad-4af0-8ee5-3dd2ecec21cb")
 	)
-	(hierarchical_label "USB_VDD"
+	(hierarchical_label "VREG_VIN"
 		(shape input)
-		(at 132.08 30.48 180)
+		(at 110.49 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8aae1612-7e4f-4044-9284-0e4246d118f7")
+		(uuid "764c70fc-d55b-42da-a8c7-9dfbd8340873")
 	)
 	(hierarchical_label "SWD"
 		(shape input)
@@ -2874,6 +2867,17 @@
 		)
 		(uuid "c7f7ae96-a4de-4da5-aa2f-d05283711f1f")
 	)
+	(hierarchical_label "USB_VDD"
+		(shape input)
+		(at 132.08 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d918bac8-c940-4bd2-b108-9e2a5406dc0c")
+	)
 	(hierarchical_label "IOVDD"
 		(shape input)
 		(at 24.13 30.48 180)
@@ -2883,7 +2887,7 @@
 			)
 			(justify right)
 		)
-		(uuid "dd33fe3c-9540-4c21-a24e-dab856566ed1")
+		(uuid "db983fb0-75e6-4ade-86fa-340539713171")
 	)
 	(hierarchical_label "QSPI_SD1"
 		(shape input)
@@ -2896,7 +2900,7 @@
 		)
 		(uuid "fc451b21-8125-4a77-bbf1-7a8cde9f3a63")
 	)
-	(hierarchical_label "I2C0_SDA"
+	(hierarchical_label "I2C1_SDA"
 		(shape input)
 		(at 252.73 68.58 180)
 		(effects
@@ -3333,6 +3337,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 29.21 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d4a1946-befb-4035-9601-b9e8c0d571f1")
+		(property "Reference" "#PWR01"
+			(at 29.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 29.21 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 29.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7151fe1a-7732-4f74-a72a-8b011ca835fc")
+		)
+		(instances
+			(project "RP2040_Macropad_3x3"
+				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 38.1 0)
 		(unit 1)
@@ -3665,6 +3735,72 @@
 			(project "RP2040_Macropad_3x3"
 				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 167.64 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b3a510e-c2eb-49bf-8d46-674f2ae26130")
+		(property "Reference" "#FLG03"
+			(at 167.64 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 167.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08033c2c-2110-42e3-9805-a5f603a734f7")
+		)
+		(instances
+			(project ""
+				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -4149,6 +4285,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 26.67 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e5d68de-4a74-46f1-9583-e9879f4bc74f")
+		(property "Reference" "#PWR030"
+			(at 26.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a18dde0d-9f3a-4537-ad15-00b2a6e488b3")
+		)
+		(instances
+			(project "RP2040_Macropad_3x3"
+				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 101.6 91.44 0)
 		(unit 1)
@@ -4279,6 +4481,72 @@
 			(project "RP2040_Macropad_3x3"
 				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 135.89 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54e288a9-463b-4bb0-9085-d7ea13fed2d4")
+		(property "Reference" "#PWR014"
+			(at 135.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 135.89 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 135.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3542b774-33ed-4c0f-a515-4a6b4e670978")
+		)
+		(instances
+			(project "RP2040_Macropad_3x3"
+				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4685,6 +4953,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 257.81 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "797cdba8-1508-467c-8946-338c0116ff94")
+		(property "Reference" "R6"
+			(at 260.35 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 260.35 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 256.032 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "516e976a-18d2-4791-a8da-c02d4e5b13a9")
+		)
+		(pin "2"
+			(uuid "ec14e573-b4e5-4c71-b9c8-3d723cfb02cd")
+		)
+		(instances
+			(project "RP2040_Macropad_3x3"
+				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KSZ_KiCad_Symbol_Library:SKQGAKE010")
 		(at 140.97 96.52 0)
 		(unit 1)
@@ -4877,73 +5215,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 254 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "859902c9-9af6-4126-a08c-cca749e0d65a")
-		(property "Reference" "R5"
-			(at 251.206 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 248.666 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 252.222 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 254 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d6904b9-e754-4fce-9bc6-7b58ac459bf7")
-		)
-		(pin "2"
-			(uuid "e18e8a9d-27fc-425c-94f1-9bab97b3e5e2")
-		)
-		(instances
-			(project "RP2040_Macropad_3x3"
-				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KSZ_KiCad_Symbol_Library:SKQGAKE010")
 		(at 179.07 46.99 0)
 		(unit 1)
@@ -5064,71 +5335,6 @@
 			(project "RP2040_Macropad_3x3"
 				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
 					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 254 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88dea755-59ff-4d6f-aecc-b36bfcbeaa21")
-		(property "Reference" "#PWR092"
-			(at 254 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 257.81 50.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 254 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95eef9b0-ef76-44ce-820a-3f6448810716")
-		)
-		(instances
-			(project "RP2040_Macropad_3x3"
-				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
-					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -5613,73 +5819,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 257.81 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a75b706f-63d6-41ff-babc-009be2a2b966")
-		(property "Reference" "R6"
-			(at 260.604 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 263.144 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 259.588 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 257.81 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "710c0987-d5c8-484c-ab6a-58c9577049cb")
-		)
-		(pin "2"
-			(uuid "c5ef3b4b-b6c5-4c19-ad52-886179120206")
-		)
-		(instances
-			(project "RP2040_Macropad_3x3"
-				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 41.91 34.29 0)
 		(unit 1)
@@ -5820,72 +5959,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 29.21 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab592fd9-9f62-47c4-bc07-33b6fe27c799")
-		(property "Reference" "#PWR01"
-			(at 29.21 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 29.21 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 29.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0735072f-374d-447d-ba5b-f3d48bf6f7cc")
-		)
-		(instances
-			(project "RP2040_Macropad_3x3"
-				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 54.61 34.29 0)
 		(unit 1)
@@ -6016,6 +6089,72 @@
 			(project "RP2040_Macropad_3x3"
 				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 55.88 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4508ef4-5eff-46bc-8c65-5e73f95e6a10")
+		(property "Reference" "#FLG06"
+			(at 55.88 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d64af5fe-d1eb-4943-b285-627fbbb703fc")
+		)
+		(instances
+			(project "RP2040_Macropad_3x3"
+				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -6288,6 +6427,72 @@
 			(project "RP2040_Macropad_3x3"
 				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 254 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d32bc3ba-4838-4cb9-909a-9be59bcb0833")
+		(property "Reference" "#PWR092"
+			(at 254 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 254 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 254 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e353aba2-1bad-4ff4-94b1-bc9b480e084e")
+		)
+		(instances
+			(project "RP2040_Macropad_3x3"
+				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -6570,138 +6775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 135.89 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1a2aeba-b04c-499b-bbe9-44500803a5f8")
-		(property "Reference" "#PWR014"
-			(at 135.89 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 135.89 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 135.89 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "369e93aa-e80f-406f-a958-be87c4001948")
-		)
-		(instances
-			(project "RP2040_Macropad_3x3"
-				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 26.67 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f28987ae-9251-45df-a598-9c810be2e9f2")
-		(property "Reference" "#PWR030"
-			(at 26.67 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21771d47-bae8-42ad-8672-9e12432427e5")
-		)
-		(instances
-			(project "RP2040_Macropad_3x3"
-				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 135.89 38.1 0)
 		(unit 1)
@@ -6762,6 +6835,76 @@
 			(project "RP2040_Macropad_3x3"
 				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 254 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f81d0e6e-9412-4a06-b384-1d76324b37ff")
+		(property "Reference" "R5"
+			(at 251.46 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 251.46 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 255.778 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f8c6dbf-c195-4b9e-97b6-8b47cf6a4c28")
+		)
+		(pin "2"
+			(uuid "fe14d3a1-66c2-4a91-be7b-410faa80a495")
+		)
+		(instances
+			(project "RP2040_Macropad_3x3"
+				(path "/fc1cc452-fb2d-489e-813e-eec33b7a6fbb/bfb91206-72fd-42b8-befc-44b71316f822"
+					(reference "R5")
 					(unit 1)
 				)
 			)
